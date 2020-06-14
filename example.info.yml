@@ -1,0 +1,4 @@
+name: Example
+type: module
+description: 'Provides an example entity type which has bundles without using a bundle entity type.'
+core_version_requirement: ^8 || ^9

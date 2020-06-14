@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * Implements hook_entity_bundle_info().
+ */
+function example_entity_bundle_info() {
+  $bundles['example']['foobar']['label'] = t('Foobar');
+  $bundles['example']['barbaz']['label'] = t('Barbaz');
+  return $bundles;
+}
